@@ -1,0 +1,60 @@
+body{
+    background: rgb(60 56 114);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background: white;
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 100px;
+    border: 6px solid black;  
+    
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    height: 30px;
+    width: 280px;
+    font-size: 20px;
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 85px;
+    
+    color:white;
+    gap:10px;
+    margin:2px;    
+}
+
+#clear button{
+    width: 120px;
+    background: #5e2d83;
+}
+
+.numbers.operations{
+    display: flex;
+}
+
+
+#numbers button{
+    background: black;
+}
+#operations button{
+    background: blue;
+}
+
+
+
+
+
